@@ -1,3 +1,6 @@
+package test;
+
+import constants.Constants;
 import org.springframework.data.util.Pair;
 import org.apache.commons.lang.StringUtils;
 
@@ -89,6 +92,6 @@ public static String createRouteHash(String originCode, String destinationCode) 
 //    }
 //
 //    public static String createRouteHash(String originCode, String destinationCode) {
-//        return originCode + Constants.ROUTE_DELIMITER + destinationCode;
+//        return originCode + constants.Constants.ROUTE_DELIMITER + destinationCode;
 //    }
 //}

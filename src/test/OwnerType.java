@@ -1,3 +1,5 @@
+package test;
+
 import javax.annotation.PostConstruct;
 import java.util.Arrays;
 import java.util.EnumSet;

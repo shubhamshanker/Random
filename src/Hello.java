@@ -11,21 +11,11 @@ public class Hello {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter name : ");
         name = sc.nextLine();
-        System.out.println("Name = " + name);
         System.out.println("True/False : " + name.contains("\""));
 
-
-    }
-
-
-    public String yoyo()
-    {
-        String nothing = "yooy";
-        return nothing;
     }
 
     private static void display(int hour, int minute, int second) throws InterruptedException {
-//        System.out.println("Hour : " + hour + " Min : %s, Second : %d", hour, minute, second);
 
         try {
             System.out.println(hour + "\n" + minute + "\n" + second);

@@ -1,3 +1,5 @@
+package test;
+
 public class SimpleThreads {
     static void threadMessage(String message) {
         String threadName =
