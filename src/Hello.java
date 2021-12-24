@@ -1,25 +1,27 @@
 import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Hello {
     private static final String ROUTE_DELIMITER = ",";
     public static void main (String[] args) throws InterruptedException {
 
-        Map<String, Integer> newmap = new HashMap<>();
-        newmap.put("jejej", 1);
-        System.out.println(newmap.get("asdfasdf"));
-        System.out.println("Hi Guys");
-        LocalTime thisSec;
-
-        for (;;) {
-            thisSec = LocalTime.now();
-
-            // implementation of display code is left to the reader
-            display(thisSec.getHour(), thisSec.getMinute(), thisSec.getSecond());
-        }
+        String name;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter name : ");
+        name = sc.nextLine();
+        System.out.println("Name = " + name);
+        System.out.println("True/False : " + name.contains("\""));
 
 
+    }
+
+
+    public String yoyo()
+    {
+        String nothing = "yooy";
+        return nothing;
     }
 
     private static void display(int hour, int minute, int second) throws InterruptedException {
